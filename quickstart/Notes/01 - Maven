@@ -1,0 +1,17 @@
+A dependency management tool.
+Maven has three different phases.
+    1. Clean - Remove temporary directories and files.
+    2. Default - Where the most useful goals live.
+    3. Site -Where documentation is generated.
+
+
+mvnw clean will clean the target folder.
+
+MVN DEFAULT:
+    1. Compile.
+    2. Test.
+    3. Package.
+    4. Verify.
+
+    Their numbers are also their priority level.
+
